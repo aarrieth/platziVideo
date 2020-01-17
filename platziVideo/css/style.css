@@ -2,15 +2,16 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Muli', sans-serif;
-    background-color: #A72ED1;
+    background-color: #6D33A0;
     color: #fff;
 }
 
 .header {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 .mn__logo {
@@ -20,7 +21,7 @@ body {
 }
 
 .header__menu {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .menu__logo-user {
@@ -32,8 +33,6 @@ body {
 /*Definir menú*/
 
 .header__menu-profile {
-    margin-right: 8px;
-    width: 60px;
     display: flex;
     align-items: center;
 }
@@ -70,3 +69,44 @@ body {
 }
 
 /**********************************************************/
+
+
+/*Estilos sección buscador....*/
+
+.main__search{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.search__title{
+    margin-bottom: 1%;
+    font-size: 150%;
+}
+
+.search__input{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.input{
+    width: inherit;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    padding: 0px 20px;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.input:focus{
+    outline: none;
+}
