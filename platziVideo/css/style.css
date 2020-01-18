@@ -62,36 +62,35 @@ body {
 
 .header__menu li a:hover {
     text-decoration: underline;
-}       
+}
 
-.header__menu-profile p{
+.header__menu-profile p {
     margin: 0px;
 }
 
 /**********************************************************/
 
-
 /*Estilos sección buscador....*/
 
-.main__search{
+.main__search {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     margin-top: 10%;
 }
 
-.search__title{
+.search__title {
     margin-bottom: 1%;
     font-size: 150%;
 }
 
-.search__input{
+.search__input {
     display: flex;
     justify-content: center;
     width: 70%;
 }
 
-.input{
+.input {
     width: inherit;
     border-radius: 50px;
     border: 1px solid #fff;
@@ -100,14 +99,14 @@ body {
     font-family: 'Muli', sans-serif;
     padding: 0px 20px;
     height: 40px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-::placeholder{
+::placeholder {
     color: #fff;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
 }
 
@@ -115,21 +114,22 @@ body {
 
 /*Estilo para la creación del carrusel de imagenes*/
 
-.carousel{
+.carousel {
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     padding: 30px;
-    position: relative; /*para que los elementos hijos se posicionen en relación a su padre*/
+    position: relative;
+    /*para que los elementos hijos se posicionen en relación a su padre*/
 }
 
-.carousel__container{
+.carousel__container {
     white-space: nowrap;
     margin: 70px 0px;
     padding-bottom: 10px;
     display: flex;
 }
 
-.carousel-items{
+.carousel-items {
     background-color: #fff;
     width: 200px;
     height: 250px;
@@ -143,29 +143,29 @@ body {
     position: relative;
 }
 
-.carousel-items:hover ~ .carousel-items{
+.carousel-items:hover~.carousel-items {
     transform: translate3d(100px, 0, 0);
 }
 
-.carousel__container:hover .carousel-items{
+.carousel__container:hover .carousel-items {
     opacity: 0.3;
 }
 
-.carousel__container:hover .carousel-items:hover{
+.carousel__container:hover .carousel-items:hover {
     transform: scale(1.5);
     opacity: 1;
 }
 
-.carousel-items__img{
+.carousel-items__img {
     width: 200px;
     height: 250px;
     object-fit: cover;
 }
 
-.carousel-items__details{
+.carousel-items__details {
     background: linear-gradient (to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     font-size: 10px;
-    /* opacity: 0; */
+    opacity: 0;
     transition: 450ms opacity;
     padding: 10px;
     position: absolute;
@@ -173,4 +173,20 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+
+.carousel-items__details:hover {
+    opacity: 1;
+}
+
+.carousel-items__detail img{
+    width: 20%;
+}
+
+.items__details--margin {
+    margin: 0;
+    margin-top: 2%;
 }
