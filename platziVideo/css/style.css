@@ -116,10 +116,11 @@ body {
 
 .carousel {
     width: 100%;
-    /* overflow: scroll; */
+    overflow: scroll;
     padding: 30px;
     position: relative;
     /*para que los elementos hijos se posicionen en relación a su padre*/
+    scrollbar-width: none;
 }
 
 .carousel__container {
@@ -189,4 +190,8 @@ body {
 .items__details--margin {
     margin: 0;
     margin-top: 2%;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
