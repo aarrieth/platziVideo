@@ -2,16 +2,81 @@
     Enlaces de login.html a otras páginas.
 */
 
+
+/*
+    Enlaces de login.html olvidé mi contraseña.
+*/
+
 .container-remember-me a {
     text-decoration: none;
     color: #fff;
     font: {
         size: $font-size-link;
         family: $font-family;
-
-    }; 
+    }
+    ;
 }
 
-.container-remember-me a:hover{
-    text-decoration: underline;
+.container-remember-me a:hover {
+    @include hover;
+}
+
+
+/*
+    Enlaces de login.html iniciar sesión con Google y Twitter
+
+*/
+
+.container--social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: $font-family;
+}
+
+.container--social-media a:hover {
+    @include hover;
+}
+
+
+/*
+    Enlaces de login.html Registrate
+
+*/
+
+.container-register a {
+    text-decoration: none;
+    color: #fff;
+    font: {
+        size: $font-size-link;
+        family: $font-family;
+        weight: bold;
+    }
+    ;
+}
+
+.container-register a:hover {
+    @include hover;
+}
+
+
+/*
+    Enlaces de login.html footer
+
+*/
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font: {
+        size: $font-size-link;
+        family: $font-family;
+    }
+    ;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    @include hover;
 }
