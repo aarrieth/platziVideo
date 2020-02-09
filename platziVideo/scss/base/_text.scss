@@ -2,9 +2,11 @@
     texts of html documents
 */
 
+
 /*
     Título formulario login.html
 */
+
 .container-title>h2 {
     margin: 0px;
     font: {
@@ -23,5 +25,21 @@
     font: {
         family: $font-family;
         size: 14px;
-    };
+    }
+    ;
+}
+
+
+/*
+    Propiedades de formato para el párrafo
+    del container-register "No tienes ninguna cuenta"
+*/
+
+.container-register p {
+    font: {
+        size: $font-size-link;
+        family: $font-family;
+    }
+    ;
+    margin: 0px;
 }
