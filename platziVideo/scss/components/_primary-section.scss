@@ -1,0 +1,6 @@
+.login {
+    background: $background-color--primary-section;
+    @include aling-content-primary-section;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
