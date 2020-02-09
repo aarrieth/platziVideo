@@ -1,0 +1,5 @@
+.container__inputs-button {
+    @include aling-content-inputs-button;
+    padding: 10px;
+    box-sizing: border-box;
+}

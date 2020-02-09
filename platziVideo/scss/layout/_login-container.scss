@@ -1,0 +1,10 @@
+.login-container {
+    @include aling-content-login-container;
+    background-color: $background-color--login-container;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    min-height: 700px;
+    width: 300px;
+    padding: 60px 68px 40px;
+    color: $color;
+}
