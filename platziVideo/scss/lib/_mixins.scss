@@ -7,19 +7,16 @@
     flex-direction: column;
 }
 
-@mixin aling-content-primary-section {
+//alinear itemts de primary-section en el eje horizontal y vertical
+@mixin justify-content-center {
     @include display;
     justify-content: center;
     align-items: center;
 }
 
-@mixin aling-content-login-container {
+//alinear itemts de login-container en el eje horizontal
+@mixin justify-content-space-around {
     @include display;
     justify-content: space-around;
 }
 
-//display inputs and button of container-form
-@mixin aling-content-inputs-button {
-    @include display;
-    justify-content: center;
-}
