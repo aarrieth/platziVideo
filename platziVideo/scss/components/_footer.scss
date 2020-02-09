@@ -1,6 +1,14 @@
+/*
+    Propiedades del footer.
+*/
+
 .footer {
-    background: $background-color--primary-section;
-    @include aling-content-primary-section;
-    padding: 0px 30px;
-    min-height: calc(100vh - 200px);
+    background-color: #ab88ff;
+    width: 100%;
+    height: 100px;
+    padding: 60px 40px 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
