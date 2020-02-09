@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+    Import variables and mixins
+*/
+/*
+    Creación de variables
+*/
+/*
+  colors of header, footer, primary section y font-family.
+*/
+/*
+ Definy font family
+*/
+/*
+    Mixins for display container elements 
+*/
+/*  
+    Import html components
+*/
+.header {
+  background: #21c08b;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.login {
+  background: linear-gradient(#21c08b, #ab88ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+
+/*  
+    Import html layout
+*/
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  border-radius: 40px;
+  min-height: 700px;
+  width: 300px;
+  padding: 60px 68px 40px;
+  color: #fff;
+}
+
+/*
+    container tittle form
+*/
+.container-title {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__inputs-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/*  
+    Import html basics elements
+*/
+.header img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+/*
+    texts of html documents
+*/
+.container-title > h2 {
+  margin: 0px;
+  font-family: "Muli", sans-serif;
+  font-size: 30px;
+}
+
+.input {
+  background: transparent;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid #fff;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: "Muli", sans-serif;
+}
+
+.button {
+  height: 50px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 10px;
+}

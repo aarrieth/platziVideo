@@ -1,0 +1,16 @@
+.button {
+    height: 50px;
+    color: $color;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    border: none;
+    font: {
+        size: 16px;
+        family: $font-family;
+        weight: bold;
+    }
+    ;
+    cursor:pointer;
+    letter-spacing: 1px;
+    padding: 10px;
+}
