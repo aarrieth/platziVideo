@@ -1,0 +1,25 @@
+/*
+    Mixins for display container elements 
+*/
+
+@mixin display {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin aling-content-primary-section {
+    @include display;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin aling-content-login-container {
+    @include display;
+    justify-content: space-around;
+}
+
+//display inputs and button of container-form
+@mixin aling-content-inputs-button {
+    @include display;
+    justify-content: center;
+}
