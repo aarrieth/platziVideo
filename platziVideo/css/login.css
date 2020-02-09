@@ -29,7 +29,7 @@ body {
     min-height: calc(100vh - 200px);
 }
 
-.login__container {
+.login-container {
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid #fff;
     border-radius: 40px;
@@ -42,16 +42,16 @@ body {
     flex-direction: column;
 }
 
-.container__title {
+.container-title {
     padding: 10px;
     box-sizing: border-box;
 }
 
-.container__title>h2 {
+.container-title>h2 {
     margin: 0;
 }
 
-.login__container--form {
+.container-form {
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +64,7 @@ body {
     box-sizing: border-box;
 }
 
-.login__container-remember-me {
+.container-remember-me {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -72,54 +72,54 @@ body {
     align-items: center;
 }
 
-.login__container-remember-me label {
+.container-remember-me label {
     font-size: 14;
 }
 
-.login__container-remember-me a {
+.container-remember-me a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
 
-.login__container-remember-me a:hover {
+.container-remember-me a:hover {
     text-decoration: underline;
 }
 
-.login__container--social-media {
+.container--social-media {
     padding: 10px;
     box-sizing: border-box;
 }
 
-.login__container--social-media>div {
+.container--social-media>div {
     display: flex;
     align-items: center;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.login__container--social-media>div>img {
+.container--social-media>div>img {
     width: 30px;
     margin-right: 10px;
 }
 
-.login__container-register {
+.container-register {
     font-size: 14px;
     box-sizing: border-box;
     padding: 10px;
 }
 
-.login__container-register>p {
+.container-register>p {
     margin: 0;
 }
 
-.login__container-register a {
+.container-register a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 }
 
-.login__container-register a:hover {
+.container-register a:hover {
     text-decoration: underline;
 }
 
@@ -160,8 +160,11 @@ body {
     background-color: #ab88ff;
     height: 100px;
     width: 100%;
-    padding: 20px;
+    padding: 60px 40px 20px 10px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer a {
