@@ -1,0 +1,17 @@
+/*
+    Enlaces de login.html a otras páginas.
+*/
+
+.container-remember-me a {
+    text-decoration: none;
+    color: #fff;
+    font: {
+        size: $font-size-link;
+        family: $font-family;
+
+    }; 
+}
+
+.container-remember-me a:hover{
+    text-decoration: underline;
+}
