@@ -1,5 +1,6 @@
 .container__inputs-button {
-    @include aling-content-inputs-button;
+    @include display;
+    justify-content: center;
     padding: 10px;
     box-sizing: border-box;
 }
