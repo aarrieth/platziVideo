@@ -90,3 +90,24 @@ body {
     animation-name: pulse;
     animation-duration: 2s;
 }
+
+@media only screen and (max-width:600px) {
+    .notFound__container {
+        border: none;
+        background-color: transparent;
+        width: 100px;
+        padding: 0px;
+    }
+    .text-style--size {
+        text-align: center;
+        margin: 0px;
+    }
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer a {
+        margin-bottom: 5px;
+    }
+}
