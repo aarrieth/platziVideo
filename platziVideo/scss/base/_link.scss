@@ -61,6 +61,24 @@
 
 
 /*
+    Enlaces de register.html iniciar sesion
+
+*/
+
+.login-user a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: $font-family;
+    margin-top: 20px;
+}
+
+.login-user a:hover {
+    @include hover;
+}
+
+
+/*
     Enlaces de login.html footer
 
 */
