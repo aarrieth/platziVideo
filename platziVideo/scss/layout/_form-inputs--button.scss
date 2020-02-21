@@ -1,0 +1,10 @@
+/*
+    Define las propiedades del contener para inputs text y buttons
+*/
+
+.form-inputs--button {
+    @include display;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+/*
+    Propiedades de container--social-media
+*/
+
+.social-media {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social-media>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
