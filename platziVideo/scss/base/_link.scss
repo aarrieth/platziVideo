@@ -7,7 +7,7 @@
     Enlaces de login.html olvidé mi contraseña.
 */
 
-.container-remember-me a {
+.remember-me a {
     text-decoration: none;
     color: #fff;
     font: {
@@ -17,7 +17,7 @@
     ;
 }
 
-.container-remember-me a:hover {
+.remember-me a:hover {
     @include hover;
 }
 
@@ -27,14 +27,14 @@
 
 */
 
-.container--social-media a {
+.social-media a {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
     font-family: $font-family;
 }
 
-.container--social-media a:hover {
+.social-media a:hover {
     @include hover;
 }
 
@@ -44,7 +44,7 @@
 
 */
 
-.container-register a {
+.register a {
     text-decoration: none;
     color: #fff;
     font: {
@@ -55,7 +55,7 @@
     ;
 }
 
-.container-register a:hover {
+.register a:hover {
     @include hover;
 }
 

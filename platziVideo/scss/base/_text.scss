@@ -7,7 +7,7 @@
     Título formulario login.html
 */
 
-.container-title>h2 {
+.title>h2 {
     margin: 0px;
     font: {
         family: $font-family;
@@ -18,10 +18,10 @@
 
 /*
     Propiedades de formato para la etiqueta dentro
-    del container-remember-me "recuerdame"
+    del remember-me "recuerdame"
 */
 
-.container-remember-me label {
+.remember-me label {
     font: {
         family: $font-family;
         size: 14px;
@@ -32,10 +32,10 @@
 
 /*
     Propiedades de formato para el párrafo
-    del container-register "No tienes ninguna cuenta"
+    del register "No tienes ninguna cuenta"
 */
 
-.container-register p {
+.register p {
     font: {
         size: $font-size-link;
         family: $font-family;
