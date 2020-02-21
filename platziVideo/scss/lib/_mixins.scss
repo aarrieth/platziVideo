@@ -8,7 +8,7 @@
 }
 
 //alinear itemts de primary-section en el eje horizontal y vertical
-@mixin justify-content-center {
+@mixin align-wraper {
     @include display;
     justify-content: center;
     align-items: center;
