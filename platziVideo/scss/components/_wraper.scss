@@ -1,0 +1,10 @@
+/*
+    Propiedades de login-container (sección principal)
+*/
+
+.wraper {
+    background: $background-color--primary-section;
+    @include align-wraper;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
