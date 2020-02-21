@@ -25,13 +25,14 @@ body {
     Import html layout
 */
 
-@import "layout/login";
+@import "layout/content";
 @import "layout/title";
 @import "layout/form";
 @import "layout/form-inputs--button";
 @import "layout/remember-me";
 @import "layout/social-media";
 @import "layout/register";
+@import "layout/login-user";
 
 /*  
     Import html basics elements
@@ -51,7 +52,7 @@ body {
     .wraper {
         min-height: 70vh;
     }
-    .login {
+    .content {
         border: none;
         background-color: transparent;
         width: 100%;
