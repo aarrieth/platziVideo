@@ -8,8 +8,8 @@
 */
 
 $background-color--header: #21c08b;
-$background-color--primary-section:linear-gradient(#21c08b, #ab88ff);
-$background-color--login-container: rgba(255, 255, 255, 0.1);
+$background-color--wraper:linear-gradient(#21c08b, #ab88ff);
+$background-color--content: rgba(255, 255, 255, 0.1);
 $background-color--footer: #ab88ff;
 $color: #fff;
 
@@ -23,4 +23,5 @@ sans-serif;
 /*
  Definy font size elements html of container-remember-me
 */
+
 $font-size-link: 14px;
