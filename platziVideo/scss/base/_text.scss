@@ -43,3 +43,21 @@
     ;
     margin: 0px;
 }
+
+
+/*
+    Propiedades de formato de texto para not found
+*/
+
+.title-size {
+    font-size: 100px;
+    margin: 0px;
+    color: $color;
+    font-family: $font-family;
+}
+
+.subtitle-size {
+    font-size: 25px;
+    color: $color;
+    font-family: $font-family;
+}
