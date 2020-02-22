@@ -3,7 +3,7 @@
 */
 
 .wraper {
-    background: $background-color--primary-section;
+    background: $background-color--wraper;
     @include align-wraper;
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
