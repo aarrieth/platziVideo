@@ -11,6 +11,7 @@ body {
 @import "lib/variables";
 @import "lib/mixins";
 @import "lib/font-face";
+@import "lib/text-animated";
 // @import "lib/mq";
 
 /*  
@@ -33,6 +34,7 @@ body {
 @import "layout/social-media";
 @import "layout/register";
 @import "layout/login-user";
+@import "layout/content-error";
 
 /*  
     Import html basics elements
